@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>huihui202411&#39;s blog</title>
+  
+  <subtitle>学习应该像呼吸一样自然</subtitle>
+  <link href="https://huihui202411.github.io/atom.xml" rel="self"/>
+  
+  <link href="https://huihui202411.github.io/"/>
+  <updated>2025-01-22T07:09:15.837Z</updated>
+  <id>https://huihui202411.github.io/</id>
+  
+  <author>
+    <name>huihui202411</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>创建vue3项目</title>
+    <link href="https://huihui202411.github.io/2025/01/22/Vue3/Vue3-1/"/>
+    <id>https://huihui202411.github.io/2025/01/22/Vue3/Vue3-1/</id>
+    <published>2025-01-22T06:44:00.000Z</published>
+    <updated>2025-01-22T07:09:15.837Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="创建vue3项目"><a href="#创建vue3项目" class="headerlink" title="创建vue3项目"></a>创建vue3项目</h1><span id="more"></span><h2 id="手动创建项目的命令"><a href="#手动创建项目的命令" class="headerlink" title="手动创建项目的命令"></a>手动创建项目的命令</h2><p>使用npm或者yarn包管理工具都可以搭配vite手动创建项目</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">#使用npm create命令创建项目</span><br><span class="line">npm create vite@latest</span><br><span class="line">#使用yarn create命令创建项目</span><br><span class="line">yarn create vite</span><br></pre></td></tr></table></figure><p><strong>示例</strong></p><img src="/2025/01/22/Vue3/Vue3-1/1.png" class=""><p>创建之后可以在终端输入yarn安装项目的全部依赖</p><p>安装完之后输入 yarn dev 启动本地服务器</p><h2 id="通过模板自动创建项目"><a href="#通过模板自动创建项目" class="headerlink" title="通过模板自动创建项目"></a>通过模板自动创建项目</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">#使用npm6或更低版本创建项目</span><br><span class="line">npm create vite@latest &lt;项目名称&gt; --template &lt;模板名称&gt;</span><br><span class="line">#使用npm7或更高版本创建项目</span><br><span class="line">npm create vite@latest &lt;项目名称&gt; -- --template &lt;模板名称&gt;</span><br><span class="line">#使用yarn create命令创建项目</span><br><span class="line">yarn create vite &lt;项目名称&gt; --template &lt;模板名称&gt;</span><br></pre></td></tr></table></figure><p><strong>示例</strong> </p><img src="/2025/01/22/Vue3/Vue3-1/2.png" class="" title="img"><h1 id="vue3目录结构"><a href="#vue3目录结构" class="headerlink" title="vue3目录结构"></a>vue3目录结构</h1>]]></content>
+    
+    
+    <summary type="html">创建vue3项目</summary>
+    
+    
+    
+    <category term="前端" scheme="https://huihui202411.github.io/categories/%E5%89%8D%E7%AB%AF/"/>
+    
+    <category term="vue" scheme="https://huihui202411.github.io/categories/%E5%89%8D%E7%AB%AF/vue/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>一天看完华为ict云赛道知识点</title>
+    <link href="https://huihui202411.github.io/2025/01/20/Huawei_ICT/"/>
+    <id>https://huihui202411.github.io/2025/01/20/Huawei_ICT/</id>
+    <published>2025-01-20T10:00:00.000Z</published>
+    <updated>2025-01-21T03:50:08.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>本文为速成内容，针对临时备考的学生写的，展示的是部分知识点，如需系统学习，请关注作者，后续会更新~</p><span id="more"></span><h2 id="云计算"><a href="#云计算" class="headerlink" title="云计算"></a>云计算</h2><h3 id="特点："><a href="#特点：" class="headerlink" title="特点："></a><strong>特点</strong>：</h3><ul><li>大规模</li><li>同质化</li><li>虚拟化</li><li>弹性计算</li><li>低成本软件</li><li>先进安全技术</li><li>地理分布</li><li>面向服务</li></ul><h3 id="部署模式："><a href="#部署模式：" class="headerlink" title="部署模式："></a><strong>部署模式</strong>：</h3><ul><li><p>私有云</p></li><li><p>公有云</p></li><li><p>混合云</p></li></ul><p>服务模式：</p><ul><li><strong>laaS 基础设施即服务</strong>（用户只需要关心基础设施和以上的东西，比如应用以及应用的运行环境）</li><li><strong>PaaS 平台即服务</strong>（应用运行环境）</li><li>弹性文件服务SFS属于PaaS（Platform as a Service，平台即服务）层服务，提供了分布式文件系统服务，用户无需关注底层存储和文件系统细节，即可快速搭建高性能、高可靠的文件服务</li><li><strong>SaaS 软件即服务</strong>（调用应用接口可以直接用，比如人脸识别，语音转译）</li></ul><img src="/2025/01/20/Huawei_ICT/1.png" class=""><h2 id="计算类技术"><a href="#计算类技术" class="headerlink" title="计算类技术"></a>计算类技术</h2><h3 id="虚拟化"><a href="#虚拟化" class="headerlink" title="虚拟化"></a><strong>虚拟化</strong></h3><p>虚拟化技术可将单台物理服务器虚拟为多台虚拟机使用，多台虚拟机共享该物理服务器的硬件资源。</p><p>虚拟机本质上是由<strong>磁盘文件</strong>和<strong>描述文件</strong>组成，封装在同一个文件夹中。虚拟化的本质就是将原先的物理设备进行<strong>逻辑化</strong>，转化成一个<strong>文件夹或文件</strong>，实现软硬件的解耦。</p><h3 id="特点"><a href="#特点" class="headerlink" title="特点"></a><strong>特点</strong></h3><p>分区（按规格大小来分配资源）、隔离（一个虚拟机受攻击不会影响其他的虚拟机）、封装（虚拟机以文件形式存在）、独立（硬件独立，没有绑定关系，软硬件解耦）</p><ul><li><strong>Guest OS:虚拟机操作系统</strong></li><li><strong>Guest Machine:虚拟出来的虚拟机</strong></li><li><strong>Hypervisor:虚拟化软件层&#x2F;虚拟机监视器</strong></li><li><strong>Host OS:运行在物理机之上的OS</strong></li><li><strong>Host Machine:物理机</strong></li></ul><img src="/2025/01/20/Huawei_ICT/2.png" class="">]]></content>
+    
+    
+    <summary type="html">本文为速成内容，针对临时备考的学生写的，展示的是部分知识点，如需系统学习，请关注作者，后续会更新~</summary>
+    
+    
+    
+    <category term="知识杂谈" scheme="https://huihui202411.github.io/categories/%E7%9F%A5%E8%AF%86%E6%9D%82%E8%B0%88/"/>
+    
+    
+  </entry>
+  
+</feed>
